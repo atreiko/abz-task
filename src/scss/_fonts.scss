@@ -1,0 +1,8 @@
+@import './common.scss';
+
+@font-face {
+  font-family: 'Nunito';
+  src: url('#{$font-path}') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}

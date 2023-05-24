@@ -1,0 +1,53 @@
+@import './common.scss';
+@import './fonts.scss';
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  background-color: #e5e5e5;
+
+  font-family: 'Nunito', sans-serif;
+  @extend %primary-font;
+  font-style: normal;
+  color: $main-text-color;
+  letter-spacing: 0;
+
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+h1,
+h2 {
+  font-size: 40px;
+  line-height: 1;
+  padding: 0;
+  margin: 0;
+}
+
+p {
+  padding: 0;
+  margin: 0;
+}
+
+button {
+  padding: 0;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+}

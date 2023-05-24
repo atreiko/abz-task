@@ -1,0 +1,33 @@
+@import '../../../scss/common.scss';
+
+.header {
+  background-color: $secondary-bg-color;
+}
+
+.inner {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 13px 0;
+}
+
+.logo {
+  width: 104px;
+  height: 26px;
+}
+
+.user {
+  display: flex;
+  align-items: center;
+}
+
+.loaderBox {
+  width: 110px;
+}
+
+.errorBlock {
+  position: absolute;
+  width: 100%;
+  right: 0;
+}

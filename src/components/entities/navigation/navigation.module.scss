@@ -1,0 +1,25 @@
+@import '../../../scss/common.scss';
+
+.nav {
+  display: flex;
+}
+
+.link {
+  width: 100px;
+  border-radius: 80px;
+  padding: 4px 0;
+  border: none;
+  text-align: center;
+  @extend %primary-font;
+  background-color: $main-btn-color;
+}
+
+.link:hover {
+  background-color: $hover-btn-color;
+}
+
+.link:not(:last-child) {
+  margin-right: 10px;
+}
+
+

@@ -13,6 +13,7 @@ API: https://apidocs.abz.dev/test_assignment_for_frontend_developer_api_document
 
 ---
 
-[Preview]:  (preview.png)
+![Preview image](preview.png)
+
 
 
